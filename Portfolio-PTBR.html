@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portifólio/CSS/style.css">
+    <title>João P.</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">João P.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" onclick="removetoggle()" class="active">Inicio</a>
+            <a href="#about" onclick="removetoggle()" class="pt">Sobre mim</a>
+            <a href="#education" onclick="removetoggle()">Formação</a>
+            <a href="#skills" onclick="removetoggle()">Habilidades</a>
+            <ol class="language">
+                <a href="Portfolio.html"><li id="EN-US" value="0" onclick="enus()"><input type="radio" name="enus" id='en' checked>en-us</li></a>
+                <a href="Portfolio-PTBR.html"><li id="PT-BR" value="1" onclick="ptbr()"><input type="radio" name="ptbr" id='pt'>pt-br</li></a>
+            </ol>
+        </nav>
+    </header>
+
+    <section class="home" id="home" onclick="removetoggle()">
+        <div class="home-content">
+            <h1>Ola, meu nome é <span>João Pedro</span></h1>
+            <div class="text-animate">
+                <h3>Web Developer e Pixel Artist</h3>
+            </div>
+            <p>Bem vindo ao meu portifólio, aqui onde mostro um pouco das minhas habilidades, história e formações. Segue abaixo uma opção para troca de idiomas e o meu Linkedin para contato.</p>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/joãopedrogonçalvesdeoliveirasilva/" target="_blank" class="bx bxl-linkedin"></a>
+        </div>
+    </section>
+
+    <section class="about" id="about" onclick="removetoggle()">
+        <h2 class="heading">Sobre <span>Mim</span></h2>
+
+        <div class="about-img">
+            <img src="Portifólio/Files/pfp.jpg" alt="">
+            <span class="circle"></span>
+        </div>
+        <div class="about-content">
+            <h3>Web Developer and Pixel Artist</h3>
+            <p>Comecei a desenvolver aplicações web no final do ano de 2022, assim como em 2022 também comecei na área de pixel art, mas minha história com programação e tecnologia começou bem antes. Em 2018 comecei a trabalhar com Excel em uma empresa, utilizei bastante para desenvolver mais rapidamente minhas tarefas, automatizando ao máximo minhas funções, mesmo nesse ano eu já trabalhava com manutenção de computadores e celulares, o que me rendeu mais afinidade com sistemas e máquinas no geral, em 2021 me mudei para Belo Horizonte-MG para estudar Mecatrônica pelo SENAI, onde me formei Técnico em Mecatrônica, ganhando experiência com mecânica, eletrônica e robótica industrial. O lado artistico de minha progressão profissional começou em 2022 com o desenvolvimento de um projeto pessoal, um jogo em pixel art baseado na linguagem C#, desde então fiz diversas ilustrações e animações em pixel art.</p>
+        </div>
+    </section>
+
+    <section class="education" id="education" onclick="removetoggle()">
+        <h2 class="heading">Minha <span>Jornada</span></h2>
+        
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Formação</h3>
+
+                <div class="education-box">
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2018 - 2019</div>
+                            <h3>Manutenção de Computadores</h3>
+                            <p>Manutenção de Computadores pela Compuway.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2021 - 2021</div>
+                            <h3>Programação em Python</h3>
+                            <p>Programação em Python do Básico ao Avançado pela Udemy.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2021 - 2023</div>
+                            <h3>Técnico em Mecatrônica</h3>
+                            <p>Curso Técnico em Mecatrônica pelo SENAI.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2023 - 2025</div>
+                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+                            <p>Análise e Desenvolvimento de Sistemas pela Estácio - Em curso.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experiência</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2018 - ...</div>
+                            <h3>Freelancer em Manutenção de Computadores</h3>
+                            <p>Trabalho desde 2018 como Freelancer na área de TI, focando em consultorias e orçamentos para montagem de pc's e manutenção de computadores.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2018 - 2020</div>
+                            <h3>Distribuidora de Bebidas Amaral</h3>
+                            <p>Trabalhei durante dois anos nessa empresa, onde trabalhei com logistica com muita ênfase em Excel.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2022 - 2023</div>
+                            <h3>Global Express BH</h3>
+                            <p>Trabalhei na empresa Global Express BH na área técnica, trabalhando com aparelhos mobile da Samsung, realizando reparos.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2023 - 2023</div>
+                            <h3>Global Express BH - Freelancer</h3>
+                            <p>Desenvolvi uma aplicação web de monitoramento de produção e auxilio ao técnico para a empresa Global Express BH, baseado em JavaScript e PHP.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills" onclick="removetoggle()">
+        <h2 class="heading">Minhas <span>Habilidades</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>30%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>PHP <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Other skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web development <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Pixel Art <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Backend <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Frontend <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Design <span>51%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="Portifólio/JS/script.js"></script>
+</html>
